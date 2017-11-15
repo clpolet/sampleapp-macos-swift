@@ -14,7 +14,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPageControllerDelegate {
 
   func applicationDidFinishLaunching(_ aNotification: Notification) {
     // Start App Center
-    MSAppCenter.start("<APP SECRET HERE>", withServices: [
+    MSAppCenter.start("6e35a254-f473-4af4-8b9a-4672b9d98e61", withServices: [
       MSAnalytics.self,
       MSCrashes.self,
       MSPush.self,
